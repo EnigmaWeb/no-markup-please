@@ -24,9 +24,6 @@ class NMP {
         add_action('wp_ajax_nmp_process_ajax', array($this, 'nmp_process_func'));
         add_action('wp_ajax_nopriv_nmp_process_ajax', array($this, 'nmp_process_func'));
 
-        // Register styles for tooltip
-        add_action('admin_head', array($this, 'nmp_delimiter_info_popup'));
-
         // Plugin Settings
         add_action('admin_init', array($this, 'nmp_settings'));
     }

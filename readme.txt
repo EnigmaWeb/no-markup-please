@@ -14,7 +14,7 @@ No Markup Please - stop visitors posting too much code in comments
 
 It can be annoying when visitors post large blocks of code in a comment. "No Markup Please" plugin checks comment submissions for markup and if there is too much code it will trigger an error message of your choice.
 
-Here's the error message I like to use:
+= Here's the error message I like to use: =
 Hey thanks for your comment but you've posted a large amount of code which makes comments hard to read for everyone else. How about using [Pastebin](http://pastebin.com/) instead?
 
 
