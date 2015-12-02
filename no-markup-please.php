@@ -93,7 +93,7 @@ class NMP {
                             nmp_count = nmp_res;
                             if (nmp_count > <?php echo get_option('nmp_delimiters_limit') ?>) {
                                 jQuery('.nmp_error').remove();
-                                jQuery("#comment").after("<span class='nmp_error'><?php echo get_option('nmp_error_message') ?></span>");
+                                jQuery("#comment").after('<span class="nmp_error"><?php echo str_replace("'", "&#39", get_option("nmp_error_message")) ?></span>');
                                 nmp_returnval = false;
                             } else {
                                 nmp_returnval = true;
