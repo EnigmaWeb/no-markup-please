@@ -51,5 +51,9 @@ If you've tried all the obvious stuff and it's still not working please request 
 
 == Upgrade Notice ==
 
+= 1.0.1 =
+* Jquery issue fixed.
+* Apostrophe issue fixed.
+
 = 1.0 =
 * Initial release

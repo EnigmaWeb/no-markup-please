@@ -3,7 +3,7 @@
   Plugin Name: No Markup Please
   Plugin URI: wordpress.org/plugins/no-markup-please
   Description: Stop visitors posting too much code in comments
-  Version: 1.0
+  Version: 1.0.1
   Author: Enigma Plugins
   Author URI: http://enigmaplugins.com
   Text Domain: no-markup-please
